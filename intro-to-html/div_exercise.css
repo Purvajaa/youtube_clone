@@ -1,0 +1,40 @@
+.divv{
+    width: 200px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+    margin-right: 15px;
+    display: inline-block;
+
+
+}
+.image{
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+.name{
+    margin-top: 12px;
+    font-size: 18px;
+    display: block;
+    margin-left: 5px;
+
+}
+.add{
+    display: block;
+    color: gray;
+    margin-top: 4px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.bt{
+    background-color: rgb(24, 119, 245);
+    margin-top: 7px;
+    border-radius: 5px;
+    height: 36px;
+    width: 100px;
+    margin-left: 5px;
+    font-weight: bold;
+    border-style: solid;
+    border: none;
+    color: white;
+    margin-bottom: 5px;
+}
