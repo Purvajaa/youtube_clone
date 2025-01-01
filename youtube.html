@@ -9,30 +9,86 @@
             rel="stylesheet">
         <link rel="stylesheet" href="styles/video.css">
         <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/sidebar.css"
     </head>
     <body>
-        <div>
-            <div class="left"></div>
-            <div class="middle"><input class="Search_bar" type="text" placeholder="Search"></div>
-            <div
+        <div class="header">
+            <div class="left">
+                <img class="hamburger_menu" src="icons/hamburger_menu.png">
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </div>
+            <div class="middle">
+                <input class="Search_bar" type="text" placeholder="Search">
+                <button class="search"><img src="icons/search.svg" class="search_img">
+                <div class="tooltip">
+                    Search
+                </div></button>
+                <button class="voice-search-icon"><img src="icons/voice-search-icon.svg" class="voice-search-icon_img">
+                    <div class="tooltip">
+                        Search with your voice
+                    </div></button>
+            </div>
+            <div class="right">
+                <button class="Create"><span class="plus">&#43;</span> Create</button>
+                <div class="notifications-icon"><img src="icons/notifications.svg" class="nots">
+                    <div class="notifications-count">
+                    3
+                    </div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <img src="icons/pfp.jpg" class="pfp">
+            </div>
         </div>
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.png" class="home">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/icons.png" class="Shorts">
+                <div>Shorts</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.png" class="sub">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/you.png" class="you">
+                <div>You</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg" class="lib">
+                <div>Library</div>
+            </div>
+        
+
+        </div>
+
+
 
         <div class="video_grid">
             <div class="video_preview">
                 <div class="thumbnail_row">
                     <img src="thumbnails/thumbnail-5.png" class="thumbnail">
+                    <div class="video-time">
+                        12:09
+                    </div>
                 </div>
                 <div class="video_info_grid">
                     <div class="channel_imgg"><img class="profile_pic" src="channel_img/channel-5.png"></div>
                     <div class="video_info"><p class="video_title">26 Beauty Secrets In 12 Minutes: Everything We Learned In 2024 &vert; Vogue</p>
-                        <p class="video_author">Vogue</p>
-                        <p class="video_stats">119K views &middot; 3 days ago</p></div>
+                        <p class="video_author" >Vogue</p>
+                        <p class="video_stats" >119K views &middot; 3 days ago</p></div>
                 </div>
                 
             </div>
             <div class="video_preview">
                 <div class="thumbnail_row">
                     <img src="thumbnails/thumbnail-6.webp" class="thumbnail">
+                    <div class="video-time">
+                        7:53
+                    </div>
                 </div>
                 <div class="video_info_grid">
                     <div class="channel_imgg"><img class="profile_pic" src="channel_img/channel-6.jpeg"></div><div class="video_info">
@@ -40,60 +96,72 @@
                             How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
 
                     </p>
-                    <p class="video_author">Business Insider </p>
-                    <p class="video_stats">14M views &middot; 1 year ago </p></div>
+                    <p class="video_author" >Business Insider </p>
+                    <p class="video_stats" >14M views &middot; 1 year ago </p></div>
                     
                 </div>
             </div>
             <div class="video_preview">
                 <div class="thumbnail_row">
                     <img src="thumbnails/thumbnail-3.png" class="thumbnail">
+                    <div class="video-time">
+                        14:04
+                    </div>
                 </div>
                 <div class="video_info_grid">
                     <div class="channel_imgg"><img class="profile_pic" src="channel_img/channel-3.png"></div>
                     <div class="video_info"><p class="video_title">Inside the Mind of a Master Procrastinator &vert; Tim Urban &vert; TED</p>
-                        <p class="video_author">TED</p>
-                        <p class="video_stats">57M views &middot; 8 years ago</p></div>
+                        <p class="video_author" >TED</p>
+                        <p class="video_stats" >57M views &middot; 8 years ago</p></div>
                 </div>
                 
             </div>
             <div class="video_preview">
                 <div class="thumbnail_row">
                     <img src="thumbnails/thumbnail-4.png" class="thumbnail">
+                    <div class="video-time">
+                        10:31
+                    </div>
                 </div>
                 <div class="video_info_grid">
                     <div class="channel_imgg"><img class="profile_pic" src="channel_img/channel-4.png"></div><div class="video_info">
                         <p class="video_title">
                         One of the Greatest Speeches Ever | Steve Jobs
                     </p>
-                    <p class="video_author">MotivationArk </p>
-                    <p class="video_stats">36M views &middot; 4 years ago </p></div>
+                    <p class="video_author" >MotivationArk </p>
+                    <p class="video_stats" >36M views &middot; 4 years ago </p></div>
                     
                 </div>
             </div>
             <div class="video_preview">
                 <div class="thumbnail_row">
                     <img src="thumbnails/thumbnail-1.webp" class="thumbnail">
+                    <div class="video-time">
+                        14:20
+                    </div>
                 </div>
                 <div class="video_info_grid">
                     <div class="channel_imgg"><img class="profile_pic" src="channel_img/channel-2.jpeg"></div><div class="video_info">
                         <p class="video_title">
                         Talking Tech and AI with Google CEO Sundar Pichai! 
                     </p>
-                    <p class="video_author">Marques Brownlee </p>
-                    <p class="video_stats">3.4M views &middot; 6 months ago </p></div>
+                    <p class="video_author" >Marques Brownlee </p>
+                    <p class="video_stats" >3.4M views &middot; 6 months ago </p></div>
                     
                 </div>
             </div>
             <div class="video_preview">
                 <div class="thumbnail_row">
                     <img src="thumbnails/thumbnail.01.png" class="thumbnail">
+                    <div class="video-time">
+                        17:11
+                    </div>
                 </div>
                 <div class="video_info_grid">
                     <div class="channel_imgg"><img class="profile_pic" src="channel_img/channel_img1.png"></div>
                     <div class="video_info"><p class="video_title">Ep. 01: Living Alone & Taking Risks : The Messy Road to Growth</p>
-                        <p class="video_author">Haize Life</p>
-                        <p class="video_stats">233 views &middot; 3 days ago</p></div>
+                        <p class="video_author" >Haize Life</p>
+                        <p class="video_stats" >233 views &middot; 3 days ago</p></div>
                 </div>
                 
             </div>
